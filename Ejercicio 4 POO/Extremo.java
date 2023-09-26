@@ -1,9 +1,24 @@
 public class Extremo extends Jugador {
     // Atributos adicionales
+    /**
+     *
+     */
     private int pases;
+    /**
+     *
+     */
     private int asistenciasEfectivas;
 
     // Constructor
+    /**
+     * @param nombre
+     * @param pais
+     * @param faltas
+     * @param golesDirectos
+     * @param totalLanzamientos
+     * @param pases
+     * @param asistenciasEfectivas
+     */
     public Extremo(String nombre, String pais, int faltas, int golesDirectos, int totalLanzamientos,
                    int pases, int asistenciasEfectivas) {
         super(nombre, pais, faltas, golesDirectos, totalLanzamientos);
@@ -24,18 +39,30 @@ public class Extremo extends Jugador {
     }
 
     // Getters y setters para atributos adicionales
+    /**
+     * @return
+     */
     public int getPases() {
         return pases;
     }
 
+    /**
+     * @param pases
+     */
     public void setPases(int pases) {
         this.pases = pases;
     }
 
+    /**
+     * @return
+     */
     public int getAsistenciasEfectivas() {
         return asistenciasEfectivas;
     }
 
+    /**
+     * @param asistenciasEfectivas
+     */
     public void setAsistenciasEfectivas(int asistenciasEfectivas) {
         this.asistenciasEfectivas = asistenciasEfectivas;
     }

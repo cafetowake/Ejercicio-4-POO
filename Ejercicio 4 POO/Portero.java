@@ -1,9 +1,24 @@
 public class Portero extends Jugador {
     // Atributos adicionales
+    /**
+     *
+     */
     private int paradasEfectivas;
+    /**
+     *
+     */
     private int golesRecibidos;
 
     // Constructor
+    /**
+     * @param nombre
+     * @param pais
+     * @param faltas
+     * @param golesDirectos
+     * @param totalLanzamientos
+     * @param paradasEfectivas
+     * @param golesRecibidos
+     */
     public Portero(String nombre, String pais, int faltas, int golesDirectos, int totalLanzamientos,
                    int paradasEfectivas, int golesRecibidos) {
         super(nombre, pais, faltas, golesDirectos, totalLanzamientos);
@@ -23,18 +38,30 @@ public class Portero extends Jugador {
     }
 
     // Getters y setters para atributos adicionales
+    /**
+     * @return
+     */
     public int getParadasEfectivas() {
         return paradasEfectivas;
     }
 
+    /**
+     * @param paradasEfectivas
+     */
     public void setParadasEfectivas(int paradasEfectivas) {
         this.paradasEfectivas = paradasEfectivas;
     }
 
+    /**
+     * @return
+     */
     public int getGolesRecibidos() {
         return golesRecibidos;
     }
 
+    /**
+     * @param golesRecibidos
+     */
     public void setGolesRecibidos(int golesRecibidos) {
         this.golesRecibidos = golesRecibidos;
     }
